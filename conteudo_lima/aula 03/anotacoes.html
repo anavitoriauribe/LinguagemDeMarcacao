@@ -1,0 +1,219 @@
+<!DOCTYPE html> <html lang="pt-BR"> <head> <meta charset="UTF-8"> <title>Meu primeiro site!
+</title>
+
+
+</head>
+<body>
+<!--
+    Elementos de bloco, ocupam toda a largura disponível da página
+    
+    Ex:
+    <div></div>
+    <p></p>
+    <h1></h1>
+    <section></section>
+    <article></aticle>
+
+    --> 
+
+    <!---
+    Elementos de linha
+
+    ex :
+    <a href=""></a>
+    <span></span>
+    <strong></strong>
+    <em></em>
+    <img src="" alt="">
+    
+    -->
+ <!--   
+<span>       --linha
+    <div>      --bloco
+        texto              
+    </div>
+</span>
+ uso incorreto (elemento de bloco dentro de um elemnto de linha) -->
+
+<!--
+ <div>
+    <span>
+        texto
+    </span>
+ </div>
+ uso correto (elemento de linha dentro de um elemento de bloco) -->
+    
+
+
+<h3>Principais categorias no HTML5</h3>
+ <p>
+ Metadata Content
+ Flow Content
+ Sectioning Content
+ Heading Content
+ Phrasing Content
+ Embedded Content 
+ Interactive Content
+</p>
+<h4>
+     Metadata Content
+</h4>
+<p>
+    &lt;title&gt; Informa o título
+
+</p>
+
+<p>
+    &lt;meta&gt; Definir codificação
+</p>
+<p> 
+    &lt;link&gt; e &lt;style&gt; importar CSS
+</p>
+<p> 
+    &lt;script&gt; configurar o computador da página (Javascripit)
+</p>
+
+<h4>
+    Flow Content
+</h4>
+<p>
+    Representa a maior parte dos elementos usados no body
+</p>
+<p>
+    &lt;div&gt; Caixa de divisão genérica, serve para agrupar "pedaços" de código
+
+</p>
+
+<p>
+    &lt;p&gt; Para colocar blocos de texto comuns na minha página
+</p>
+<p>
+    &lt;section&gt; Agrupa conteúdos que partilham do mesmo assunto ou ideia
+</p>
+<p> 
+    &lt;article&gt;  Conteúdo independente e completo por si só (faz sentido sozinho)
+<p> 
+    &lt;img&gt; Mostra uma imagem, foto, desenho, etc. (não precisa de tag de fechamento)
+</p>
+
+<p>
+    &lt;form&gt; criar formulários, o usuário poderá digitar dados, enviar mensagem ou fazer login.
+</p>
+
+<h4>
+     Sectioning Content
+</h4>
+<p>
+    Organizar grandes áreas do documento
+</p>
+<p>
+     &lt;section&gt; Agrupa conteúdos que partilham do mesmo assunto ou ideia
+</p>
+<p>
+    &lt;article&gt; Conteúdo independente e completo por si só (faz sentido sozinho)
+
+</p>
+
+<p>
+    &lt;aside&gt; Serve para guardar um conteúdo secundário/lateral (links relacionados, anúncios, biografia, etc.)
+</p>
+<p> 
+    &lt;nav&gt; Agrupa links de navegação
+</p>
+
+<h4>
+     Heading Content
+</h4>
+<p>
+    h1, h2, h3, h4, h5, h6 -> Para adicionar títulos e subtítulos
+</p>
+<p>
+     &lt;hgroup&gt; Serve para agrupar elementos de título, exemplo:
+     <hgroup>
+        <h4>
+            "Aprenda HMTML
+        </h4>
+        <p>
+            Senai Americana"
+        </p>
+     </hgroup>
+</p>
+
+<h4>
+   Phrasing Content
+</h4>
+<p>
+    Elementos que marcam textos ou partes de texto
+</p>
+
+<p>
+     &lt;span&gt;  Um bloco genérico, não muda nada sozinho. Serve para agrupar pedaços de txto e aplicar CSS ou funções com javascript.
+</p>
+<p>
+    &lt;a&gt; Cria um link para direcionar o usuário para outra página, utilizando o atributo <strong>href</strong>. Exemplo: <a href="https://bitcoin.org/en/bitcoin-core/" style="color:rgba(197, 156, 235, 0.74) ;"  target="_blank">Clique aqui para ir ao site do bitcoin</a>
+
+</p>
+
+<p>
+    &lt;strong&gt; Deixar uma parte do texto em <strong>negrito</strong>
+</p>
+<p> 
+    &lt;em&gt; Deixar uma parte do texto em <em>itálico</em>
+</p>
+
+<p>
+    &lt;mark&gt; Adiciona um marcador em um aparte do 
+    <mark style="background-color: rgba(197, 156, 235, 0.74);">texto</mark>
+</p>
+<p> 
+    &lt;img&gt; Mostra uma imagem, foto, desenho, etc. (não precisa de tag de fechamento)
+</p>  
+
+<h4>
+     Embedded Content 
+</h4>
+<p>
+    
+</p>
+<p>
+    &lt;img&gt; Mostra uma imagem, foto, desenho, etc. (não precisa de tag de fechamento)
+</p>
+<p> 
+    &lt;video&gt; Adiconar um videio direto no site (pode mostrar botões de play e pause)
+</p>
+
+<p>
+    &lt;canvas&gt; Criar uma tela em branco que poderá ser usada pelo javascript
+</p>
+<p>
+    &lt;svg&gt; Desenha gráficos baseados em vetores
+</p>
+    &lt;iframe&gt; Coloca outra página inteira dentro do seu website (muito usado paraa dicionar mapas e videos de outras paginas)
+</p>
+<h4>
+    Interactive Content
+</h4>
+
+<p>
+    &lt;a&gt; Cria um link para direcionar o usuário para outra página, utilizando o atributo <strong>href</strong>.
+</p>
+<p> 
+    &lt;button&gt; Criar um botão clicavel. Exemplo: <button>Enviar</button>
+
+</p>
+<p>
+    &lt;input&gt; Usado para receber dados. Dentre os dados aceitos estão:<br>
+    type="text": campo de texto curto.<br>
+    type="password": oculta os caracteres digitados<br>
+    type="email" ou type="number":valida dados específicos<br>
+    type="checkbox" ou type= "radio": caixas de marcação e escolha única.<br>
+    <em>type é uma tag que não precisa de fechamento
+</em>
+ <p> &lt;select&gt;Cria uma caixa de seleção em formato de lista suspensa(dropdown)</p>
+    <p> &lt;textarea&gt;Cria uma "caixa" com várias linhas, serve para textos longos, comentários, mensagens</p>
+
+</body>
+
+
+
+</html>
