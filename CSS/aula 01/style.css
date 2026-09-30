@@ -1,0 +1,14 @@
+body{
+    background-color: #f0e4fc;
+}
+
+h1{
+    color: darkslateblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+p{
+    color: #f0e4fc;
+    background-color:darkslateblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
