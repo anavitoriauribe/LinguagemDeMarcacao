@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyFrame</title>
+    <style>
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+    }
+        .navbar-gamer{
+/* Ativa o flex box para o elemento pai header */
+            display: flex;
+            /* coloca o primeiro filho div na esquerda e o outro filho div a diretia */
+            justify-content:space-between;
+            align-items:
+            center ;
+            height: 50px;
+            background-color: rgb(233, 181, 84);
+            padding: 16px;
+            color: rgb(161, 91, 25);
+            border-bottom: 2px solid;
+        }
+         a{
+            color: rgb(161, 91, 25);
+            text-decoration: none;
+            
+        }
+        @keyframes
+        flutuar{
+            /* na metade do tempo sobre 8px */
+            0%{
+                transform: translateY(0px);
+            }
+            50%{
+                transform: translateY(-8px);
+            }
+            /* volta suavemente para o ponto inicial */
+            100%{
+                transform: translateY(0px);
+            }
+        }
+        .icone-bau{
+            margin: 4px;
+            width: 25px;
+            height: auto;
+            /* nome, duração, curva, repetição infinita */
+            animation: flutuar 2.5s ease-in-out infinite;
+        }
+
+        @media (max-width: 768px){
+            .vitrine-jogos{
+                grid-template-columns: 1fr;
+            }
+            .navbar-gamer{
+            /* Ativa o flex box para o elemento pai header */
+            display: flex;
+            /* coloca o primeiro filho div na esquerda e o outro filho div a diretia */
+            justify-content:space-between;
+            align-items:
+            center ;
+            flex-direction: column;
+            height: 50px;
+            background-color: rgb(233, 181, 84);
+            padding: 16px;
+            color: rgb(161, 91, 25);
+            border-bottom: 2px solid;
+            }
+
+            a{
+            color: rgb(161, 91, 25);
+            text-decoration: none;
+            }
+        }
+        
+        
+
+        
+    </style>
+
+
+</head>
+<body>
+    <header class="navbar-gamer">
+        <h1>Gamer Store</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Jogos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main class="vitrine-jogos">
+
+        <div class="card-jogo">
+            <img src="https://cdn-icons-png.flaticon.com/512/4883/4883370.png" alt="Baú de Oferta" class="icone-bau">
+            <h3>Jogo 1</h3>
+        </div> 
+        <div class="card-jogo">
+            
+            <h3>Jogo 2</h3>
+        </div> 
+        <div class="card-jogo">
+
+            <h3>Jogo 3</h3>
+        </div> 
+
+    </main>
+</body>
+</html>

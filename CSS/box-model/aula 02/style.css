@@ -1,0 +1,27 @@
+/* com ' * ' é para todas as paginas */
+/* 
+/* *{
+    box-sizing: border-box;
+}
+ */ */
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: dotted 5px rgb(23, 138, 184);
+    margin: 10% auto;
+    /* margin-top: 45px;
+    margin-right: 45px;
+    margin-bottom: 45px ;
+    margin-left: 45px; */
+    padding: 100px 0;
+    
+}
+
+
+/* formatação do texto desse box */
+.div_ex{
+background-color: rgb(144, 181, 230);
+font-size: 20px;
+color: rgb(217, 238, 248);
+}

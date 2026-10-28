@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify </title>
+    <style>
+        .navbar-gamer{
+/* Ativa o flex box para o elemento pai header */
+            display: flex;
+            /* coloca o primeiro filho div na esquerda e o outro filho div a diretia */
+            justify-content:space-between;
+            align-items:
+            center ;
+            height: 50px;
+            background-color: rgb(157, 123, 189);
+            padding: 0px 24px;
+            color: rgb(70, 4, 124);
+        }
+
+        .menu-links{
+            display: flex;
+            gap: 20px;
+        }
+
+        a{
+            color: rgb(70, 4, 124);
+            text-decoration: none;
+        }
+        .jogo-principal{
+            background-color: rgb(228, 199, 255);
+            display: flex;
+            justify-content:center;
+            align-items:
+            center ;
+            height: 200px;
+            margin: 10px 0px;
+            color: rgb(157, 123, 189);
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar-gamer">
+        <div class="logo">Dev.games</div>
+        <nav class="menu-links">
+        <a href="">inicio </a>
+        <a href="">catalogo</a>
+        <a href="">perfil</a></nav>
+    </header>
+
+    <div class="jogo-principal" >Little Misfortune</div>
+</body>
+</html>

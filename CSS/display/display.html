@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display
+    </title>
+    <style>
+        .badge{
+            display:flex;
+            background-color: rgb(156, 221, 221);
+            padding: 10px;
+            color: teal;
+            /* tentativa de definir um tamanho rigido */
+            width: 150px;
+            height: 60px;
+            /* tentativa de espaçamento vertical */
+            margin-bottom: 30px;
+           justify-content: center;
+            align-items: center;
+        }
+        .btn-acao{
+            display: block;
+            width: 100%;
+            background-color:teal;
+            color: rgb(156, 221, 221);
+            padding: 12px;
+            margin-top: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            align-items: center;
+        }
+
+        .alerta-sistema{
+            background-color: blanchedalmond;
+            color: rgb(255, 115, 0);
+            padding: 15px;
+            margin-top: 20px;
+            border: 1px solid rgb(255, 115, 0);
+            
+            /* a linha abaixo ativa o modo fantasma do aviso */
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-perfil">
+        <h2>Perfil do jogador</h2>
+
+        <P>Conquistas recentes no sistema</P>
+    
+        <span class="badge">Nivel 99</span>
+        <span class="badge"> Mestre CSS</span>
+        <span class="badge">VIP</span>
+
+        <a href="#" class="btn-acao">Editar Perfil</a>
+        <a href="#" class="btn-acao">Ver inventário</a>
+
+        <div class="alerta-sistema">Manutenção programada</div>
+
+
+    </div>
+</html>
